@@ -1,0 +1,52 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: 
+  [jekyll-paginate]
+
+paginate: 4
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Nick Questo
+description: "Nick Questo personal site"
+keywords: "Jekyll, theme, free, portfolio, personal site, SEO, blog, web"
+#url: http://nquesto.github.io
+#baseurl: "/nquesto.site"
+
+google_analytics: UA-52446115-1
+repo: https://github.com/nquesto/nquesto.site
+disqus_shortname: "nandothemes"
+disqus_site_shortname: "nandothemes"
+
+# Author settings
+author:
+  name: Nick Questo
+  job: Technical Writer
+  bio: "Always writing. Soon to be dad."
+  thumb: /images/author.jpg
+  email: nquesto@gmail.com
+  url: 
+  github: https://github.com/nquesto
+  twitter: https://twitter.com/nick_questo
+  #facebook: 
+  linkedin: https://linkedin.com/in/nickquesto
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  #- slug: icons
+  #  title: Icons
+  - slug: blog
+    title: Portfolio
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
