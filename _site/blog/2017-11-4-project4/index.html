@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>TOR and BOS API</title>
-<meta name="description" content="When I worked at OmniTicket Network I wrote and edited API documentation for the TOR and BOS web services.">
+<title>Confluence to HTML</title>
+<meta name="description" content="Nick Questo personal site">
 
 <link rel="stylesheet" href="/nquesto.site/css/lightbox.css">  
 <link rel="stylesheet" href="/nquesto.site/css/main.css">
-<link rel="canonical" href="http://localhost:4000/nquesto.site/blog/2017/project2/">
+<link rel="canonical" href="http://localhost:4000/nquesto.site/blog/2017-11-4-project4/">
 <link rel="alternate" type="application/rss+xml" title="Nick Questo" href="http://localhost:4000/nquesto.site/feed.xml" />
 
 <script>
@@ -56,7 +56,7 @@
 
   <div class="card">
     <header class="post-header">
-      <h1 class="post-title">TOR and BOS API</h1>
+      <h1 class="post-title">Confluence to HTML</h1>
       <em class="post-meta">
         <time>Nov 4, 2017</time>
       </em>
@@ -64,27 +64,19 @@
 
     <div class="post-content">
       
-      <p>When I worked at OmniTicket Network I wrote and edited API documentation for the TOR and BOS web services.</p>
+      <p>After migrating my team’s product documentation to Confluence, I was presented with the challenge of making the content available in the product as an embedded help solution.</p>
 
-<h3>BOS API</h3>
+<p>This was tricky because the product (a web application) is primarily used in clean room environments where outside internet access is unavailable. This prevented us from simply linking the “Help” button to Confluence.</p>
 
-<p>BOS is a point of sale solution for theme parks, museums, theaters, and other attractions. It can be used to sell tickets, reservations, and many other products.</p>
+<p>The prior solution was to generate a help file with Adobe RoboHelp that could be deployed to the clean room’s server and viewed offline. While this worked, it was difficult to maintain. If I made edits in Confluence, I had to make those edits again in RoboHelp.</p>
 
-<p>The BOS API enables third party applications to sell tickets, make reservations, or perform other actions that are configured in BOS.</p>
+<p>To address this, I generated a static site using HTML exports from Confluence. After some experimentation and styling, I presented the solution to my team. It had a modern aesthetic compared to the antiquated look of RoboHelp. It was fully indexed and provided a search feature. It surpassed the look and function of the prior solution and, best of all, it enabled me to author content exclusively in Confluence.</p>
 
-<p><a href="/nquesto.site/images/bos_api_sample.pdf">
-	<img class="portfolio-thumb" alt="BOS API Sample" src="/nquesto.site/images/confluence/bos_api_thumb.png" style="max-width:40%;" />
-</a></p>
-
-<h3>TOR API</h3>
-
-<p>TOR is an application that controls turnstiles.</p>
-
-<p>The TOR API enables turnstiles to communicate with a venue’s point of sale system. It can allow or deny entrance depending on factors such as ticket validity, biometrics, or guest entrance/exit counts.</p>
-
-<p><a href="/images/tor_api_sample.pdf">
-	<img class="portfolio-thumb" alt="TOR API Sample" src="/nquesto.site/images/confluence/tor_api_thumb.png" style="max-width:40%;" />
-</a></p>
+<div class="image-row">
+<a href="/images/confluence/helpgif.gif" data-lightbox="helpgif_set" data-title="Embedded Help System">
+  <img class="portfolio-thumb" src="/images/confluence/helpgif.gif" alt="Embedded Help System" style="max-width:75%;" />
+</a>
+</div>
 
     </div>
 

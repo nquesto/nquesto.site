@@ -3,10 +3,10 @@
   <channel>
     <title>Nick Questo</title>
     <description>Nick Questo personal site</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Nov 2017 17:43:36 -0500</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2017 17:43:36 -0500</lastBuildDate>
+    <link>http://localhost:4000/nquesto.site/</link>
+    <atom:link href="http://localhost:4000/nquesto.site/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 Nov 2017 18:52:24 -0500</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 18:52:24 -0500</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -20,14 +20,14 @@
 &lt;p&gt;To address this, I generated a static site using HTML exports from Confluence. After some experimentation and styling, I presented the solution to my team. It had a modern aesthetic compared to the antiquated look of RoboHelp. It was fully indexed and provided a search feature. It surpassed the look and function of the prior solution and, best of all, it enabled me to author content exclusively in Confluence.&lt;/p&gt;
 
 &lt;div class=&quot;image-row&quot;&gt;
-&lt;a href=&quot;/images/confluence/helpgif.gif&quot; data-lightbox=&quot;helpgif_set&quot; data-title=&quot;Embedded Help System&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/helpgif.gif&quot; alt=&quot;Embedded Help System&quot; style=&quot;max-width:75%;&quot; /&gt;
+&lt;a href=&quot;/nquesto.site/images/confluence/helpgif.gif&quot; data-lightbox=&quot;helpgif_set&quot; data-title=&quot;Embedded Help System&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/helpgif.gif&quot; alt=&quot;Embedded Help System&quot; style=&quot;max-width:75%;&quot; /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>/blog/2017/project4/</link>
-        <guid isPermaLink="true">/blog/2017/project4/</guid>
+        <link>http://localhost:4000/nquesto.site/blog/2017/project4/</link>
+        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project4/</guid>
         
         <category>project3</category>
         
@@ -43,14 +43,14 @@
 &lt;p&gt;To comply with the standards set forth by ISO 27001, I was tasked with producing a monthly security newsletter. The purpose of this letter is to communicate to customers about changes or updates to the product that affect security. To acquire this information, I interview management, support, and operations personnel at the end of each month. I distill their contributions into a letter and submit it for distribution.&lt;/p&gt;
 
 &lt;div class=&quot;image-row&quot;&gt;
-&lt;a href=&quot;/images/confluence/newslettersample.png&quot; data-lightbox=&quot;newsletter_set&quot; data-title=&quot;Security Newsletter&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/newslettersample.png&quot; alt=&quot;Newsletter Sample&quot; style=&quot;max-width:60%;&quot; /&gt;
+&lt;a href=&quot;/nquesto.site/images/confluence/newslettersample.png&quot; data-lightbox=&quot;newsletter_set&quot; data-title=&quot;Security Newsletter&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/newslettersample.png&quot; alt=&quot;Newsletter Sample&quot; style=&quot;max-width:60%;&quot; /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>/blog/2017/project3/</link>
-        <guid isPermaLink="true">/blog/2017/project3/</guid>
+        <link>http://localhost:4000/nquesto.site/blog/2017/project3/</link>
+        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project3/</guid>
         
         <category>project3</category>
         
@@ -69,8 +69,8 @@
 
 &lt;p&gt;The BOS API enables third party applications to sell tickets, make reservations, or perform other actions that are configured in BOS.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/bos_api_sample.pdf&quot;&gt;
-	&lt;img class=&quot;portfolio-thumb&quot; alt=&quot;BOS API Sample&quot; src=&quot;/images/confluence/bos_api_thumb.png&quot; style=&quot;max-width:40%;&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/nquesto.site/images/bos_api_sample.pdf&quot;&gt;
+	&lt;img class=&quot;portfolio-thumb&quot; alt=&quot;BOS API Sample&quot; src=&quot;/nquesto.site/images/confluence/bos_api_thumb.png&quot; style=&quot;max-width:40%;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h3&gt;TOR API&lt;/h3&gt;
@@ -80,12 +80,12 @@
 &lt;p&gt;The TOR API enables turnstiles to communicate with a venue’s point of sale system. It can allow or deny entrance depending on factors such as ticket validity, biometrics, or guest entrance/exit counts.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/tor_api_sample.pdf&quot;&gt;
-	&lt;img class=&quot;portfolio-thumb&quot; alt=&quot;TOR API Sample&quot; src=&quot;/images/confluence/tor_api_thumb.png&quot; style=&quot;max-width:40%;&quot; /&gt;
+	&lt;img class=&quot;portfolio-thumb&quot; alt=&quot;TOR API Sample&quot; src=&quot;/nquesto.site/images/confluence/tor_api_thumb.png&quot; style=&quot;max-width:40%;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>/blog/2017/project2/</link>
-        <guid isPermaLink="true">/blog/2017/project2/</guid>
+        <link>http://localhost:4000/nquesto.site/blog/2017/project2/</link>
+        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project2/</guid>
         
         <category>project2</category>
         
@@ -115,17 +115,17 @@
 
 &lt;p&gt;I accomplished this by using Confluence to “chunk” concepts into smaller, more palatable pages. When complex concepts required a deep dive, I developed page heirachies with parent and children pages. Parent pages provided high-level views and enabled readers to navigate broad topics at a glance. Child pages, instead, provided specific information.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/confluence/tcsinstallch2.png&quot; data-lightbox=&quot;hierarchy_set&quot; data-title=&quot;Example of Page Parent and Child Pages&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/tcsinstallch2.png&quot; alt=&quot;Example of Parent and Child Pages&quot; style=&quot;max-width:45%;&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/nquesto.site/images/confluence/tcsinstallch2.png&quot; data-lightbox=&quot;hierarchy_set&quot; data-title=&quot;Example of Page Parent and Child Pages&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/tcsinstallch2.png&quot; alt=&quot;Example of Parent and Child Pages&quot; style=&quot;max-width:45%;&quot; /&gt;
 &lt;/a&gt;
-&lt;a href=&quot;/images/confluence/tcsinstallch.png&quot; data-lightbox=&quot;hierarchy_set&quot; data-title=&quot;Example of Page Parent and Child Pages&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/tcsinstallch-thumb.png&quot; alt=&quot;Example of Parent and Child Pages&quot; style=&quot;max-width:45%;&quot; /&gt;
+&lt;a href=&quot;/nquesto.site/images/confluence/tcsinstallch.png&quot; data-lightbox=&quot;hierarchy_set&quot; data-title=&quot;Example of Page Parent and Child Pages&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/tcsinstallch-thumb.png&quot; alt=&quot;Example of Parent and Child Pages&quot; style=&quot;max-width:45%;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I also made use of Confluence’s built in search functionality. This significantly helped translate the documentation to a web friendly experience. I included a search bar on the site’s landing page and in each each manual. This feature provided the ability to locate specific terms or phrases across hundreds of pages.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/confluence/searchfunction.png&quot; data-lightbox=&quot;search_set&quot; data-title=&quot;Example of Page Parent and Child Pages&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/searchfunction.png&quot; alt=&quot;Example of Search Function&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/nquesto.site/images/confluence/searchfunction.png&quot; data-lightbox=&quot;search_set&quot; data-title=&quot;Example of Page Parent and Child Pages&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/searchfunction.png&quot; alt=&quot;Example of Search Function&quot; style=&quot;max-width:50%;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;These are just a handful of the techniques I used to migrate my team’s documenation to the web.&lt;/p&gt;
@@ -135,8 +135,8 @@
 
 &lt;p&gt;To address this, I configured Confluence to require authentication for read access. Then, I created “user groups” that enabled me to assign permissions to internal and customer users. To supply authorized users with credentials, I developed a process and handed it off to the support team.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/confluence/conflogin.png&quot; data-lightbox=&quot;authentication_set&quot; data-title=&quot;Example of Login&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/conflogin.png&quot; alt=&quot;Example Login Screen&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/nquesto.site/images/confluence/conflogin.png&quot; data-lightbox=&quot;authentication_set&quot; data-title=&quot;Example of Login&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/conflogin.png&quot; alt=&quot;Example Login Screen&quot; style=&quot;max-width:50%;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h3&gt;Exporting to PDFs&lt;/h3&gt;
@@ -147,15 +147,15 @@
 
 &lt;p&gt;To address this, I modified the PDF export’s stylesheet. With a little CSS and HTML styling, my pubs were looking sharp once again.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/confluence/adminguidePDF.png&quot; data-lightbox=&quot;pdfexport_set&quot; data-title=&quot;Example of PDF Export&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/adminguidePDF.png&quot; alt=&quot;Example PDF Export&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/nquesto.site/images/confluence/adminguidePDF.png&quot; data-lightbox=&quot;pdfexport_set&quot; data-title=&quot;Example of PDF Export&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/adminguidePDF.png&quot; alt=&quot;Example PDF Export&quot; style=&quot;max-width:50%;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h3&gt;Ease of Use&lt;/h3&gt;
 &lt;p&gt;This is where Confluence really shined. It uses a WYSIWYG editor enabling anyone to jump in and contribute. This was extremely useful for receiving input from the development team. SMEs had to ability to highlight sections and add their comments straight to the page. To verify my work, I could provide QA with URLs to the exact paragraphs that were added or updated.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/confluence/inlinecomments.png&quot; data-lightbox=&quot;easeofuse_set&quot; data-title=&quot;Example of PDF Export&quot;&gt;
-  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/inlinecomments.png&quot; alt=&quot;Example inline comments&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/nquesto.site/images/confluence/inlinecomments.png&quot; data-lightbox=&quot;easeofuse_set&quot; data-title=&quot;Example of PDF Export&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/nquesto.site/images/confluence/inlinecomments.png&quot; alt=&quot;Example inline comments&quot; style=&quot;max-width:50%;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h3&gt;Final Thoughts&lt;/h3&gt;
@@ -164,8 +164,8 @@
 &lt;p&gt;But concise, accessible documentation is the name of the game– and on that front Confluence delivered.&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>/blog/2017/project1/</link>
-        <guid isPermaLink="true">/blog/2017/project1/</guid>
+        <link>http://localhost:4000/nquesto.site/blog/2017/project1/</link>
+        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project1/</guid>
         
         <category>project</category>
         
