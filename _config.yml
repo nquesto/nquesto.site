@@ -19,8 +19,8 @@ sass:
 title: Nick Questo
 description: "Nick Questo personal site"
 keywords: "Jekyll, theme, free, portfolio, personal site, SEO, blog, web"
-#url: http://nquesto.github.io
-#baseurl: "/nquesto.site"
+url: http://nquesto.github.io
+baseurl: "/nquesto.site"
 
 google_analytics: UA-52446115-1
 repo: https://github.com/nquesto/nquesto.site
