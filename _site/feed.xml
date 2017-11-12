@@ -3,10 +3,10 @@
   <channel>
     <title>Nick Questo</title>
     <description>Nick Questo personal site</description>
-    <link>http://localhost:4000/nquesto.site/</link>
-    <atom:link href="http://localhost:4000/nquesto.site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Nov 2017 18:52:24 -0500</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2017 18:52:24 -0500</lastBuildDate>
+    <link>http://nquesto.github.io/nquesto.site/</link>
+    <atom:link href="http://nquesto.github.io/nquesto.site/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 Nov 2017 18:53:51 -0500</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 18:53:51 -0500</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -26,8 +26,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/nquesto.site/blog/2017/project4/</link>
-        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project4/</guid>
+        <link>http://nquesto.github.io/nquesto.site/blog/2017/project4/</link>
+        <guid isPermaLink="true">http://nquesto.github.io/nquesto.site/blog/2017/project4/</guid>
         
         <category>project3</category>
         
@@ -49,8 +49,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/nquesto.site/blog/2017/project3/</link>
-        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project3/</guid>
+        <link>http://nquesto.github.io/nquesto.site/blog/2017/project3/</link>
+        <guid isPermaLink="true">http://nquesto.github.io/nquesto.site/blog/2017/project3/</guid>
         
         <category>project3</category>
         
@@ -84,8 +84,8 @@
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/nquesto.site/blog/2017/project2/</link>
-        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project2/</guid>
+        <link>http://nquesto.github.io/nquesto.site/blog/2017/project2/</link>
+        <guid isPermaLink="true">http://nquesto.github.io/nquesto.site/blog/2017/project2/</guid>
         
         <category>project2</category>
         
@@ -164,8 +164,8 @@
 &lt;p&gt;But concise, accessible documentation is the name of the game– and on that front Confluence delivered.&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/nquesto.site/blog/2017/project1/</link>
-        <guid isPermaLink="true">http://localhost:4000/nquesto.site/blog/2017/project1/</guid>
+        <link>http://nquesto.github.io/nquesto.site/blog/2017/project1/</link>
+        <guid isPermaLink="true">http://nquesto.github.io/nquesto.site/blog/2017/project1/</guid>
         
         <category>project</category>
         
