@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Content Migration to Confluence</title>
+<meta name="description" content="One of my first responsibilities at Telit was to migrate the existing documentation library to a web based platform. The project had the following requirements:">
+
+<link rel="stylesheet" href="/css/lightbox.css">  
+<link rel="stylesheet" href="/css/main.css">
+<link rel="canonical" href="nickquesto.com/blog/2017/migration_to_conf/">
+<link rel="alternate" type="application/rss+xml" title="Nick Questo" href="nickquesto.com/feed.xml" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52446115-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <input type="checkbox" id="toggleNavbar">
+    <h1 class="logo"><a href="/">Nick<span> Questo</span></a></h1>
+    <label for="toggleNavbar" role="button" class="toggle-navbar-button">
+      <i class="icon icon-menu"></i>
+      <i class="icon icon-cross"></i>
+    </label>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/" title="Home">home</a></li>
+        
+          <li><a href="/about" title="about">about</a></li>
+        
+          <li><a href="/blog" title="portfolio">portfolio</a></li>
+        
+        <li><a href="/resume/nickquestoresume.pdf" title="Download">resume</a></li>
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-rss"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="main-container">
+  <div class="container">
+    <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Content Migration to Confluence</h1>
+      <em class="post-meta">
+        <time>Nov 4, 2017</time>
+      </em>
+    </header>
+
+    <div class="post-content">
+      
+      <p>One of my first responsibilities at Telit was to migrate the existing documentation library to a web based platform. The project had the following requirements:</p>
+
+<ol>
+  <li>The content needs to be re-written and re-organized for the web.</li>
+  <li>The readers need to be authenticated.</li>
+  <li>The content must be available offline.</li>
+  <li>The platform needs to be simple to use.</li>
+</ol>
+
+<p>My mind went to Confluence. I never used it as a CMS, but I knew it could be leveraged to satisfy these requirements. Below is a summary of how I used Confluence to address these challenges.</p>
+
+<p><a href="/images/confluence/ConfHomePage2.png" data-lightbox="confproduct" data-title="Finished Product: secureWISE Documentation Portal on Confluence">
+  <img class="portfolio-thumb" src="/images/confluence/ConfHomePage2.png" alt="FinishedProduct" style="max-width:30%;" /></a></p>
+
+<h3>Writing for the Web</h3>
+
+<p>My team’s existing documentation was written for print publication. It was linear, author-driven, and designed to be read end-to-end like a book.</p>
+
+<p>I needed to transform it into web friendly content that was concise, searchable, and helpful to readers who needed immediate answers.</p>
+
+<p>I accomplished this by using Confluence to “chunk” concepts into smaller and more palatable pages. When complex concepts required a deep dive, I developed page hierarchies with parent and children pages. Parent pages provide a high-level view and enable readers to navigate broad topics at a glance. Child pages, instead, delve into the specifics.</p>
+
+<p><a href="/images/confluence/tcsinstallch2.png" data-lightbox="hierarchy_set" data-title="Parent Page Example 1">
+  <img class="portfolio-thumb" src="/images/confluence/tcsinstallch2.png" alt="Example of Parent and Child Pages" style="max-width:45%;" />
+</a>
+<a href="/images/confluence/tcsinstallch.png" data-lightbox="hierarchy_set" data-title="Parent Page Example 2">
+  <img class="portfolio-thumb" src="/images/confluence/tcsinstallch-thumb.png" alt="Sample Parent Page" style="max-width:45%;" />
+</a></p>
+
+<p>I also used Confluence’s native search functionality to facilitate a better user experience. I sprinkled search bars throughout the site that display an inviting “What are you looking for?” This feature enables readers to locate specific terms or phrases across hundreds of pages.</p>
+
+<p><a href="/images/confluence/searchfunction.png" data-lightbox="search_set" data-title="Search Feature Example">
+  <img class="portfolio-thumb" src="/images/confluence/searchfunction.png" alt="Example of Search Function" style="max-width:50%;" />
+</a></p>
+
+<h3>Authentication</h3>
+
+<p>The secureWISE documentation contains sensitive content. As such, a solution was required that could prevent unauthorized access.</p>
+
+<p>To address this, I configured Confluence to require authentication for read access. To view the documentation, users require a Telit provided userID and password. To take it further, I created “user groups” that enable me to assign permission to internal users and customer users.</p>
+
+<p><a href="/images/confluence/conflogin.png" data-lightbox="authentication_set" data-title="Login Screen Example">
+  <img class="portfolio-thumb" src="/images/confluence/conflogin.png" alt="Login Screen" style="max-width:50%;" />
+</a></p>
+
+<h3>Exporting to PDFs</h3>
+
+<p>Many secureWISE customers require the ability to access documentation offline. Confluence enabled to me to address this need through the use of PDF exports. With this functionality I converted my content “spaces” into PDF manuals. There was one wrinkle: generating PDFs ruined my page design. Screenshots were too big, tables were cropped, and page breaks were inconsistent. To solve this, I modified the PDF export’s stylesheet with HTML and CSS.</p>
+
+<p><a href="/images/confluence/adminguidePDF.png" data-lightbox="pdfexport_set" data-title="PDF Export Example">
+  <img class="portfolio-thumb" src="/images/confluence/adminguidePDF.png" alt="Example PDF Export" style="max-width:50%;" />
+</a></p>
+
+<h3>Ease of Use</h3>
+<p>This is where Confluence really shines. It uses a WYSIWYG editor enabling anyone to jump in and contribute. This is useful for receiving input from the development team. SMEs can highlight sections and provide inline comments. If I need verification, I can use URLs to communicate where changes have occurred.</p>
+
+<p><a href="/images/confluence/inlinecomments.png" data-lightbox="easeofuse_set" data-title="Inline Comments Example">
+  <img class="portfolio-thumb" src="/images/confluence/inlinecomments.png" alt="Example inline comments" style="max-width:50%;" />
+</a></p>
+
+<h3>Final Thoughts</h3>
+<p>Overall, Confluence is an easy to use solution that meets the needs of my team. That being said, it’s not without its faults. It’s a tool geared for corporate wikis and internal collaboration. It’s rigid, limits customization, and stifles creativity.</p>
+
+<p>But concise, accessible documentation is the name of the game– and on that front Confluence delivers.</p>
+
+    </div>
+
+    
+
+  </div>
+
+</article>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="https://github.com/nquesto" target="_blank"><i class="icon icon-github"></i></a></li>
+  <li><a href="https://twitter.com/nick_questo" target="_blank"><i class="icon icon-twitter"></i></a></li>
+  <li><a href="https://linkedin.com/in/nickquesto" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+</ul>
+    <p class="txt-medium-gray">
+      <small>&copy;2018 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+  <script src="/js/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

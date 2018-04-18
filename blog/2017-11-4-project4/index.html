@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Confluence to HTML</title>
+<meta name="description" content="Nick Questo personal site">
+
+<link rel="stylesheet" href="/css/lightbox.css">  
+<link rel="stylesheet" href="/css/main.css">
+<link rel="canonical" href="nickquesto.com/blog/2017-11-4-project4/">
+<link rel="alternate" type="application/rss+xml" title="Nick Questo" href="nickquesto.com/feed.xml" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52446115-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <input type="checkbox" id="toggleNavbar">
+    <h1 class="logo"><a href="/">Nick<span> Questo</span></a></h1>
+    <label for="toggleNavbar" role="button" class="toggle-navbar-button">
+      <i class="icon icon-menu"></i>
+      <i class="icon icon-cross"></i>
+    </label>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/" title="Home">home</a></li>
+        
+          <li><a href="/about" title="about">about</a></li>
+        
+          <li><a href="/blog" title="portfolio">portfolio</a></li>
+        
+        <li><a href="/resume/nickquestoresume.pdf" title="Download">resume</a></li>
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-rss"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="main-container">
+  <div class="container">
+    <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Confluence to HTML</h1>
+      <em class="post-meta">
+        <time>Nov 4, 2017</time>
+      </em>
+    </header>
+
+    <div class="post-content">
+      
+      <p>After migrating my team’s product documentation to Confluence, I was presented with the challenge of making the content available in the product as an embedded help solution.</p>
+
+<p>This was tricky because the product (a web application) is primarily used in clean room environments where outside internet access is unavailable. This prevented us from simply linking the “Help” button to Confluence.</p>
+
+<p>The prior solution was to generate a help file with Adobe RoboHelp that could be deployed to the clean room’s server and viewed offline. While this worked, it was difficult to maintain. If I made edits in Confluence, I had to make those edits again in RoboHelp.</p>
+
+<p>To address this, I generated a static site using HTML exports from Confluence. After some experimentation and styling, I presented the solution to my team. It had a modern aesthetic compared to the antiquated look of RoboHelp. It was fully indexed and provided a search feature. It surpassed the look and function of the prior solution and, best of all, it enabled me to author content exclusively in Confluence.</p>
+
+<div class="image-row">
+<a href="/images/confluence/helpgif.gif" data-lightbox="helpgif_set" data-title="Embedded Help System">
+  <img class="portfolio-thumb" src="/images/confluence/helpgif.gif" alt="Embedded Help System" style="max-width:75%;" />
+</a>
+</div>
+
+    </div>
+
+    
+
+  </div>
+
+</article>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="https://github.com/nquesto" target="_blank"><i class="icon icon-github"></i></a></li>
+  <li><a href="https://twitter.com/nick_questo" target="_blank"><i class="icon icon-twitter"></i></a></li>
+  <li><a href="https://linkedin.com/in/nickquesto" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+</ul>
+    <p class="txt-medium-gray">
+      <small>&copy;2018 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+  <script src="/js/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

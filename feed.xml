@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nick Questo</title>
+    <description>Nick Questo personal site</description>
+    <link>nickquesto.com/</link>
+    <atom:link href="nickquesto.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 18 Apr 2018 16:01:40 -0400</pubDate>
+    <lastBuildDate>Wed, 18 Apr 2018 16:01:40 -0400</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>TOR and BOS API</title>
+        <description>&lt;p&gt;When I worked at OmniTicket Network I wrote and edited API documentation for the TOR and BOS web services.&lt;/p&gt;
+
+&lt;h3&gt;BOS API&lt;/h3&gt;
+
+&lt;p&gt;BOS is a point of sale solution for theme parks, museums, theaters, and other attractions. It can be used to sell tickets, reservations, and many other products.&lt;/p&gt;
+
+&lt;p&gt;The BOS API enables third party applications to sell tickets, make reservations, or perform other actions that are configured in BOS.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/bos_api_sample.pdf&quot;&gt;
+	&lt;img class=&quot;portfolio-thumb&quot; alt=&quot;BOS API Sample&quot; src=&quot;/images/confluence/bos_api_thumb.png&quot; style=&quot;max-width:40%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;TOR API&lt;/h3&gt;
+
+&lt;p&gt;TOR is an application that controls turnstiles.&lt;/p&gt;
+
+&lt;p&gt;The TOR API enables turnstiles to communicate with a venue’s point of sale system. It can allow or deny entrance depending on factors such as ticket validity, biometrics, or guest entrance/exit counts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/tor_api_sample.pdf&quot;&gt;
+	&lt;img class=&quot;portfolio-thumb&quot; alt=&quot;TOR API Sample&quot; src=&quot;/images/confluence/tor_api_thumb.png&quot; style=&quot;max-width:40%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
+        <link>nickquesto.com/blog/2017/tor_bos_api/</link>
+        <guid isPermaLink="true">nickquesto.com/blog/2017/tor_bos_api/</guid>
+        
+        <category>project2</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Content Migration to Confluence</title>
+        <description>&lt;p&gt;One of my first responsibilities at Telit was to migrate the existing documentation library to a web based platform. The project had the following requirements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The content needs to be re-written and re-organized for the web.&lt;/li&gt;
+  &lt;li&gt;The readers need to be authenticated.&lt;/li&gt;
+  &lt;li&gt;The content must be available offline.&lt;/li&gt;
+  &lt;li&gt;The platform needs to be simple to use.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;My mind went to Confluence. I never used it as a CMS, but I knew it could be leveraged to satisfy these requirements. Below is a summary of how I used Confluence to address these challenges.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/confluence/ConfHomePage2.png&quot; data-lightbox=&quot;confproduct&quot; data-title=&quot;Finished Product: secureWISE Documentation Portal on Confluence&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/ConfHomePage2.png&quot; alt=&quot;FinishedProduct&quot; style=&quot;max-width:30%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Writing for the Web&lt;/h3&gt;
+
+&lt;p&gt;My team’s existing documentation was written for print publication. It was linear, author-driven, and designed to be read end-to-end like a book.&lt;/p&gt;
+
+&lt;p&gt;I needed to transform it into web friendly content that was concise, searchable, and helpful to readers who needed immediate answers.&lt;/p&gt;
+
+&lt;p&gt;I accomplished this by using Confluence to “chunk” concepts into smaller and more palatable pages. When complex concepts required a deep dive, I developed page hierarchies with parent and children pages. Parent pages provide a high-level view and enable readers to navigate broad topics at a glance. Child pages, instead, delve into the specifics.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/confluence/tcsinstallch2.png&quot; data-lightbox=&quot;hierarchy_set&quot; data-title=&quot;Parent Page Example 1&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/tcsinstallch2.png&quot; alt=&quot;Example of Parent and Child Pages&quot; style=&quot;max-width:45%;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/images/confluence/tcsinstallch.png&quot; data-lightbox=&quot;hierarchy_set&quot; data-title=&quot;Parent Page Example 2&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/tcsinstallch-thumb.png&quot; alt=&quot;Sample Parent Page&quot; style=&quot;max-width:45%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also used Confluence’s native search functionality to facilitate a better user experience. I sprinkled search bars throughout the site that display an inviting “What are you looking for?” This feature enables readers to locate specific terms or phrases across hundreds of pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/confluence/searchfunction.png&quot; data-lightbox=&quot;search_set&quot; data-title=&quot;Search Feature Example&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/searchfunction.png&quot; alt=&quot;Example of Search Function&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Authentication&lt;/h3&gt;
+
+&lt;p&gt;The secureWISE documentation contains sensitive content. As such, a solution was required that could prevent unauthorized access.&lt;/p&gt;
+
+&lt;p&gt;To address this, I configured Confluence to require authentication for read access. To view the documentation, users require a Telit provided userID and password. To take it further, I created “user groups” that enable me to assign permission to internal users and customer users.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/confluence/conflogin.png&quot; data-lightbox=&quot;authentication_set&quot; data-title=&quot;Login Screen Example&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/conflogin.png&quot; alt=&quot;Login Screen&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Exporting to PDFs&lt;/h3&gt;
+
+&lt;p&gt;Many secureWISE customers require the ability to access documentation offline. Confluence enabled to me to address this need through the use of PDF exports. With this functionality I converted my content “spaces” into PDF manuals. There was one wrinkle: generating PDFs ruined my page design. Screenshots were too big, tables were cropped, and page breaks were inconsistent. To solve this, I modified the PDF export’s stylesheet with HTML and CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/confluence/adminguidePDF.png&quot; data-lightbox=&quot;pdfexport_set&quot; data-title=&quot;PDF Export Example&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/adminguidePDF.png&quot; alt=&quot;Example PDF Export&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Ease of Use&lt;/h3&gt;
+&lt;p&gt;This is where Confluence really shines. It uses a WYSIWYG editor enabling anyone to jump in and contribute. This is useful for receiving input from the development team. SMEs can highlight sections and provide inline comments. If I need verification, I can use URLs to communicate where changes have occurred.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/confluence/inlinecomments.png&quot; data-lightbox=&quot;easeofuse_set&quot; data-title=&quot;Inline Comments Example&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/inlinecomments.png&quot; alt=&quot;Example inline comments&quot; style=&quot;max-width:50%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Final Thoughts&lt;/h3&gt;
+&lt;p&gt;Overall, Confluence is an easy to use solution that meets the needs of my team. That being said, it’s not without its faults. It’s a tool geared for corporate wikis and internal collaboration. It’s rigid, limits customization, and stifles creativity.&lt;/p&gt;
+
+&lt;p&gt;But concise, accessible documentation is the name of the game– and on that front Confluence delivers.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
+        <link>nickquesto.com/blog/2017/migration_to_conf/</link>
+        <guid isPermaLink="true">nickquesto.com/blog/2017/migration_to_conf/</guid>
+        
+        <category>project</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Confluence to HTML</title>
+        <description>&lt;p&gt;After migrating my team’s product documentation to Confluence, I was presented with the challenge of making the content available in the product as an embedded help solution.&lt;/p&gt;
+
+&lt;p&gt;This was tricky because the product (a web application) is primarily used in clean room environments where outside internet access is unavailable. This prevented us from simply linking the “Help” button to Confluence.&lt;/p&gt;
+
+&lt;p&gt;The prior solution was to generate an HTML help file with Adobe RoboHelp that could be deployed to the clean room’s server and viewed offline. While this worked, it was difficult to maintain. If I made edits in Confluence, I had to make those edits again in RoboHelp.&lt;/p&gt;
+
+&lt;p&gt;To address this, I generated a static site using HTML exports from Confluence. After some experimentation and styling, I presented the solution to my team. It had a modern aesthetic compared to the antiquated look of RoboHelp. It was fully indexed and provided a search feature. It surpassed the look and function of the prior solution and, best of all, it enabled me to author content exclusively in Confluence.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/confluence/helpgif.gif&quot; data-lightbox=&quot;helpgif_set&quot; data-title=&quot;secureWISE Help Example&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/helpgif.gif&quot; alt=&quot;secureWISE mbedded help system&quot; style=&quot;max-width:75%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Nov 2017 00:00:00 -0400</pubDate>
+        <link>nickquesto.com/blog/2017/confluence_html/</link>
+        <guid isPermaLink="true">nickquesto.com/blog/2017/confluence_html/</guid>
+        
+        <category>project3</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Security Newsletter</title>
+        <description>&lt;p&gt;At the end of 2016, my team was applying for an ISO 27001 certification. This certification demonstrates that our team has a systematic approach to managing sensitive information to ensure it remains secure.&lt;/p&gt;
+
+&lt;p&gt;To comply with the standards set forth by ISO 27001, I was tasked with producing a monthly security newsletter. The purpose of this letter is to communicate to customers about changes or updates to the product that affect security. To acquire this information, I interview management, support, and operations personnel at the end of each month. I distill their contributions into a letter and submit it for distribution.&lt;/p&gt;
+
+&lt;div class=&quot;image-row&quot;&gt;
+&lt;a href=&quot;/images/confluence/newslettersample.png&quot; data-lightbox=&quot;newsletter_set&quot; data-title=&quot;Security Newsletter Excerpt&quot;&gt;
+  &lt;img class=&quot;portfolio-thumb&quot; src=&quot;/images/confluence/newslettersample.png&quot; alt=&quot;Newsletter Sample&quot; style=&quot;max-width:60%;&quot; /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 03 Nov 2017 00:00:00 -0400</pubDate>
+        <link>nickquesto.com/blog/2017/security_newsletter/</link>
+        <guid isPermaLink="true">nickquesto.com/blog/2017/security_newsletter/</guid>
+        
+        <category>project3</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+  </channel>
+</rss>
